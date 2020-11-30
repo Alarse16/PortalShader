@@ -7,6 +7,7 @@
     }
     SubShader
     {
+        Tags { "RenderType" = "Opaque" }
         Color [_Color]
 
         Stencil
