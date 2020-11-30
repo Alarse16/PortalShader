@@ -3,7 +3,7 @@
     Properties
     {
         _Color ("Color", Color) = (1,1,1,1)
-        [Enum(Equal,0,NotEqual,1)] _StencilTest ("Stencil Test", int) = 0
+        [Enum(Equal,3,NotEqual,6)] _StencilTest ("Stencil Test", int) = 3
     }
     SubShader
     {
