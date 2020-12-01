@@ -35,9 +35,11 @@ public class InterDimintionalTransporter : MonoBehaviour
     */
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name != "Main Camera")
+        if (other.tag != "Player")
             return;
 
+        transform.Rotate(Vector3.up, 180);
+        
         foreach (Material material in materials)
         {
 

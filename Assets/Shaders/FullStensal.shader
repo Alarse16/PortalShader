@@ -3,14 +3,12 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-        _Color("Color", Color) = (1,1,1,1)
         [Enum(Equal,3,NotEqual,6)] _StencilTest("Stencil Test", int) = 3
     }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
         LOD 100
-        Color[_Color]
 
         Stencil
         {

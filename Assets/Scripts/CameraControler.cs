@@ -5,7 +5,14 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class CameraControler : MonoBehaviour
 {
+	private void Update() {
+    }
 
+
+
+
+
+	/*
     private Vector3 forward = new Vector3(0, 0, 1);
     private Vector3 clockwise = new Vector3(0, 1, 0);
     public int MSpeed;
@@ -53,5 +60,5 @@ public class CameraControler : MonoBehaviour
         Graphics.Blit(source, destination, mat);
     }
     */
-  
+
 }
